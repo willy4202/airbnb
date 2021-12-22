@@ -1,0 +1,131 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#메인1{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    background-color: black;
+    color: white;
+}
+
+#상단{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px !important;
+    font-size: 12Spx;
+
+}
+
+a{
+    color: white;
+}
+
+#숙소,
+#체험1,
+#온라인1{
+    padding: 20px;
+    font-weight: 700;
+}
+
+#목록{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#더큰박스{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+#큰박스{ 
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.3;
+    flex-basis: auto;
+    background-color: white;
+    border-radius: 100px;
+    padding: 2px;
+    color: black;
+}
+
+#박스1,
+#박스2,
+#박스3,
+#박스4{
+    padding: 15px;
+    color: black;
+}
+
+#박스1텍1,
+#박스2텍1,
+#박스3텍1,
+#박스4텍1{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+#메인2{
+    text-align: center;
+}
+
+#사진1{
+    width: 70%;
+    margin-top: 40px;
+    border-radius: 100px;
+}
+
+
+#사진텍스트1{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    display: flex;
+    justify-content: center;
+}
+
+#버튼 {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 90px;
+    font-weight: 800;
+    border: 0;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #6F019C 0%, #C6017E 135.12%);
+    -webkit-background-clip: text;
+}
+
+#버튼:active{
+    transform: scale(0.94);
+}
+
+h1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#제주사진,
+#강릉사진,
+#속초사진,
+#여수사진{
+    border-radius: 50px;
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+}
+
+#큰섬{
+    padding: 30px;
+}
