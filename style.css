@@ -115,13 +115,10 @@ h1{
     margin-left: 30px;
 }
 
-#제주사진,
-#강릉사진,
-#속초사진,
-#여수사진{
+
+#섬{
     border-radius: 50px;
     display: flex;
-    height: 100%;
     width: 30%;
     justify-content: center;
 }
