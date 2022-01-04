@@ -1,3 +1,9 @@
+@media screen (max-width: 700px;) {
+    .hostingText{
+        color: coral;
+    }   
+}
+
 body{
     /* overflow-x: hidden; */
     margin: 0;
@@ -191,7 +197,7 @@ h1{
 
 .container3photoCover{
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 10%;
 }
 
@@ -220,7 +226,7 @@ h1{
     padding-top: 3%;
     left: 55%;
     color: white;;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .hostingImg{
